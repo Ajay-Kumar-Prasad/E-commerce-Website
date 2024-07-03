@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext} from "react";
 import '../Pages/CSS/ShowProductDetails.css';
 import { ShopContext } from "../ContextAPI/ShopContext";
 export default function ShowProductDetails(props){
@@ -7,11 +7,19 @@ export default function ShowProductDetails(props){
     return (
         <div className="show-myproduct">
             <div className="myproduct-image">
-                <img src={product.image} alt="" />
-                <div className="myproduct-cart">
+                <div className="sub-images">
+                    <div><img src={product.image} alt="" /></div>
+                    <div><img src={product.image_1} alt="" /></div>
+                    <div><img src={product.image_2} alt="" /></div>
+                </div>
+                <div className="main-image-box">
+                    <img src={product.image} alt=""  />
+                    <div className="myproduct-cart">
                     <button onClick={()=>{addToCart(product.id)}}>Add to Cart</button>
                     <button>Buy Now</button>
                 </div>
+                </div>
+                
             </div>
             <div className="myproduct-details">
                 <div className="like-share">
@@ -23,6 +31,7 @@ export default function ShowProductDetails(props){
                     <h3>{product.full_name}</h3>
                 </div>
                 <div className="myproduct-rating">
+                    <p>Ratings</p>
                     <i className="fa-solid fa-star"></i>
                     <p>{product.rating}</p>
                 </div>

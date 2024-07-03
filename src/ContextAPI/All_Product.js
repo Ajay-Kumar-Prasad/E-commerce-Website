@@ -15,14 +15,17 @@ let all_products = [
     {
         id:2,
         name:"BEWAKOOF Men Full S..",
-        full_name:"BEWAKOOF Men Full Sleeve Sweatshirt (Black)",
-        brand_name:"Sanvi Fashion",
+        full_name:"Oversized Men Graphic Print Round Neck Pure Cotton Brown T-Shirt",
+        brand_name:"BEWAKOOF",
+        description:"Strike a balance between being young, wild and free with this Beast Within 2.0 Men's Oversized Full Sleeve T-shirt. Pair this brown t-shirt with denim, a varsity jacket and sneakers for a dapper appeal",
         category:"men",
-        image:"https://rukminim2.flixcart.com/image/612/612/xif0q/sweatshirt/k/d/f/l-625420-bewakoof-original-imagwbg8paahpfup.jpeg?q=70",
-        new_price:1049,
-        old_price:2699,
-        discount:"61% off",
-        rating:4
+        image:"https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/l/4/n/s-581508-bewakoof-original-imah2e4q8gkhcet5.jpeg?q=70",
+        image_1:"https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/o/r/1/s-581508-bewakoof-original-imah2e4q7wzpcasw.jpeg?q=70",
+        image_2:"https://rukminim2.flixcart.com/image/832/832/xif0q/t-shirt/k/r/3/s-581508-bewakoof-original-imah2e4qpfhr8y2b.jpeg?q=70&crop=false",
+        new_price:494,
+        old_price:1499,
+        discount:"67% off",
+        rating:3.8
     },
     {
         id:3,

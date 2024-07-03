@@ -1,7 +1,9 @@
 .login{
     height: 500px;
     padding-top: 20px;
-    background-color: gainsboro;
+    background-image: url("https://websoptimization.com/blog/media/posts/44/responsive/Marketplace-Development-cost-lg.jpg");
+    background-size: cover;
+    
 }
 .signin-container{
     height: 470px;
@@ -9,29 +11,32 @@
     border: 0.5px black;
     margin-left: 450px;
     border-radius: 10px;
-    background-color: white;
+    background:transparent;
     padding-top: 20px;
     
 }
 .signin-container h1{
     display: flex;
     justify-content: center;
-    font-size: x-large;
+    font-size: xx-large;
 }
 .sign-in-inputs{
     display: flex;
     flex-direction: column;
     padding: 30px;
-    gap: 30px;
+    gap: 20px;
 }
 .sign-in-inputs input{
-    height: 25px;
+    height: 30px;
+    border-radius: 10px;
 }
 .signin-container button{
     margin-left: 30px;
     width: 390px;
     height: 40px;
     background-color: #ff4141;
+    border-radius: 10px;
+    font-size: large;
     
 }
 
@@ -44,5 +49,9 @@
    padding-left: 100px;
 }
 .old-account span{
-    color: blue;
+    color:navy;
+    font-weight: bold;
+}
+.login-container p{
+    color:white;
 }

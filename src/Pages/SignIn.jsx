@@ -7,7 +7,7 @@ export default function SignIn(){
                 <h1>Sign up</h1>
                 <div className="sign-in-inputs">
                     <input type="text" placeholder="enter your name" />
-                    <input type="email" placeholder="Email addresss" />
+                    <input type="email" placeholder="email addresss" />
                     <input type="password" placeholder="enter password" />
                 </div>
                 <button>Continue</button>
