@@ -1,0 +1,9 @@
+.related-product h2{
+    padding-left: 60px;
+    font-family:Arial, Helvetica, sans-serif
+}
+.related-product-items{
+    display: flex;
+    justify-content: space-evenly;
+    
+}

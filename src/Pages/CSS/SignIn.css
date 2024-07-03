@@ -1,0 +1,48 @@
+.login{
+    height: 500px;
+    padding-top: 20px;
+    background-color: gainsboro;
+}
+.signin-container{
+    height: 470px;
+    width: 450px;
+    border: 0.5px black;
+    margin-left: 450px;
+    border-radius: 10px;
+    background-color: white;
+    padding-top: 20px;
+    
+}
+.signin-container h1{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+}
+.sign-in-inputs{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+}
+.sign-in-inputs input{
+    height: 25px;
+}
+.signin-container button{
+    margin-left: 30px;
+    width: 390px;
+    height: 40px;
+    background-color: #ff4141;
+    
+}
+
+.Agree-container{
+    display: flex;
+    gap: 10px;
+    padding-left: 30px;
+}
+.old-account{
+   padding-left: 100px;
+}
+.old-account span{
+    color: blue;
+}

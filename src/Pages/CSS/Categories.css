@@ -1,0 +1,58 @@
+.shop-category{
+    height: 450px;
+}
+.shop-category img{
+    height: 450px;
+    width: 1360px;
+
+}
+.category-products{
+    height:700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 50px;
+    background-color: gainsboro;
+}
+.SortByProducts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.shopcategory-sort{
+    height: 25px;
+    width: 100px;
+    border: 0.3px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.more-items{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.more-items button{
+    height: 40px;
+    width: 140px;
+    border-radius: 10px;
+}
+.men-shopcategory{
+    height: 600px;
+    display: grid;
+    grid-template-rows: 250px 250px;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    gap: 60px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.men-categories img{
+    height: 200px;
+    width: 200px;
+}
+.men-categories p{
+    margin-left: 70px;
+    font-weight: 500;
+}
+

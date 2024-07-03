@@ -1,0 +1,17 @@
+.Deal-items{
+    height: 360px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: gainsboro;
+}
+.deals h2{
+    display: flex;
+    justify-content: center;
+}
+.deals hr{
+    width: 200px;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,12 @@
+.men-shirts-banner{
+    height: 470px;
+    width: 1400px;
+}
+.men-shirts-items{
+    height:750px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 50px;
+    padding: 40px;
+    background-color: gainsboro;
+}

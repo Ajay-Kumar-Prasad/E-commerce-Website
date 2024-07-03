@@ -1,0 +1,101 @@
+.Nav-container{
+    position: fixed;
+}
+.NavBar{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    background-color:rgb(252, 32, 116);
+    
+}
+.MenuBar{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    gap: 5px;
+    
+}
+.line{
+    height: 0.5px;
+    background-color: white;
+}
+.menu{
+    height: 30px;
+    background-color:rgb(255, 27, 114);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.NavLogo{
+    height: 80px;
+    width: 80px;;
+    background-image: url("https://www.codester.com/static/uploads/items/000/009/9951/icon.png");
+    background-size: contain;
+}
+.searchBox{
+    background-color: white;
+    color: black;
+    height: 30px;
+    width: 400px;
+    margin-top: 25px;
+    margin-left: 25px;
+    border-radius: 10px;
+
+}
+.searchBtn{
+    height: 35px;
+    width: 35px;
+    margin-top: 25px;
+    border-radius: 10px;
+    background-color: white;
+
+    
+}
+.cart{
+    color: white;
+    height: 100px;
+    width: 100px;
+    font-size: xx-large;
+    display: flex;
+}
+.MenuBar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color:white;
+
+}
+.signup{
+    border-radius: 40px;
+    height: 35px;
+    width: 100px;
+    background-color: white;
+    margin-left: 190px;
+    margin-right: 30px;
+}
+.cartNum{
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -12px;
+    margin-left: -10px;
+    border-radius: 20px;
+    color: white;
+    font-size: small;
+
+}
+.menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: white;
+
+}
+

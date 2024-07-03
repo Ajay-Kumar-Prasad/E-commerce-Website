@@ -1,0 +1,54 @@
+import react, { useContext } from "react";
+import { useState } from "react";
+import "./NavBar.css"
+import { HashRouter, Link, NavLink } from "react-router-dom"
+import { ShopContext } from "../../ContextAPI/ShopContext";
+export default function NavBar(){
+    let [menu,setMenu] = useState("")
+    const {getTotalCartItem} = useContext(ShopContext);
+    return (
+        <div className="Nav-container">
+        <div className="NavBar">
+                <div className="NavLogo">
+                    {/* <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/shopping-website-logo-design-template-3aee0a935db461ae9bc9389271418d9e_screen.jpg?ts=1689501622" alt="" /> */}
+                </div>
+                <input className="searchBox" type="text" placeholder="Search For Products"/>
+                <button className="searchBtn"><i className="fa-solid fa-magnifying-glass"></i></button>
+                <div className="MenuBar">
+                    <ul>
+                        <li onClick={()=>{setMenu("Home")}}><Link style={{textDecoration:'none',color:"white"}} to='/'>Home</Link>{menu==="All"?<hr/>:<></>}</li>
+                        <li onClick={()=>{setMenu("Men")}}> <Link style={{textDecoration:'none',color:"white"}} to='/men'>Men</Link> {menu==="Men"?<hr/>:<></>}</li>
+                        <li onClick={()=>{setMenu("Women")}}> <Link style={{textDecoration:'none',color:"white"}} to='/women'>Women</Link>{menu==="Women"?<hr/>:<></>}</li>
+                        <li onClick={()=>{setMenu("Kids")}}><Link style={{textDecoration:'none',color:"white"}} to='/kids'>Kids</Link>{menu==="Kids"?<hr/>:<></>}</li>
+                        {/* <li onClick={()=>{setMenu("My Orders")}}><Link style={{textDecoration:'none'}} to=''>All</Link> {menu==="My Orders"?<hr/>:<></>}</li> */}
+                        
+                    </ul>
+                    
+                    <div className="Signup">
+                        <Link to="/signin"><button className="signup">Sign in</button></Link>
+                    </div>
+                    <div className="cart">
+                        <Link to="/cart"><i className="fa-solid fa-cart-shopping" style={{color:"white"}}></i></Link>
+                        <div className="cartNum">{getTotalCartItem()}</div>
+                    </div>
+                </div>
+            </div>
+        <div className="line"></div>
+        <div className="menu">
+            <ul>
+                <li>Today's Deals</li>
+                <li>BestSellers</li>
+                <li>Mobiles</li>
+                <li>Fashion</li>
+                <li>Electronics</li>
+                <li>Home & Kitchen</li>
+                <li>Grocery</li>
+            </ul>
+        </div>
+
+            
+        </div>
+        
+
+    )
+}

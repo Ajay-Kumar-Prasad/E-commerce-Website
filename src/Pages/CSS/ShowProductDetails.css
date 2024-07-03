@@ -1,0 +1,95 @@
+.show-myproduct{
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:10px;
+    
+}
+.myproduct-image img{
+    height: 400px;
+    width: 350px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.myproduct-details{
+    height: 450px;
+    width: 800px;
+    padding-top: 20px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.myproduct-details h2{
+    color: grey;
+}
+.myproduct-details h3{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.myproduct-cart button{
+    height: 45px;
+    width: 170px;
+    color: white;
+    background-color:rgb(253, 68, 115);
+    border-radius: 5px;
+    font-size: medium;
+}
+.myproduct-cart{
+    display: flex;
+    justify-content: space-between;
+}
+.myproduct-price{
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+}
+.myproduct-newprice{
+    font-size: large;
+    font-weight: bolder;
+}
+.myproduct-oldprice{
+    text-decoration: line-through;
+}
+.myproduct-rating{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.myproduct-rating i{
+    font-size: x-large;
+    color: rgb(223, 51, 108);
+}
+.myproduct-size-button{
+    width: 300px;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.myproduct-size button{
+    width: 50px;
+}
+.myproduct-description{
+    height: 120px;
+    width:800px;
+    
+}
+.myproduct-name{
+    height: 60px;
+    line-height: 10px;
+}
+.myproduct-discount{
+    color: rgb(223, 51, 108);
+    font-size: larger;
+}
+.like-share{
+    height: 30px;
+    font-size:x-large;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}

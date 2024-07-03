@@ -1,0 +1,25 @@
+.Banners{
+    height: 300px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:10px;
+}
+.FashionBanners{
+    height: 250px;
+    width: 430px;
+    background-image: url("https://rukminim1.flixcart.com/fk-p-flap/520/280/image/8ba11d1e034f42b9.jpg?q=20");
+    background-size: cover;
+}
+.ElectronicsBanners{
+    height: 250px;
+    width: 430px;
+    background-image: url("https://rukminim1.flixcart.com/fk-p-flap/520/280/image/f86ce62e8a99a5a6.jpg?q=20");
+    background-size: cover;
+}
+.KitchenBanners{
+    height: 250px;
+    width: 430px;
+    background-image: url("https://rukminim1.flixcart.com/fk-p-flap/520/280/image/cb80423c2c56540f.jpg?q=20");
+    background-size: cover;
+}

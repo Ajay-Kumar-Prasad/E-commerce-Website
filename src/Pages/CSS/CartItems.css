@@ -1,0 +1,92 @@
+.my-cart{
+    display: flex;
+    
+}
+.cart-item-image{
+    height: 150px;
+    width: 120px;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.my-cart-items{
+    height: 180px;
+    width: 800px;
+    margin: 30px;
+    display: flex;
+    border: 0.5px solid black;
+    border-radius: 5px;
+}
+.cart-item-detail{
+    height: 200px;
+    width: 800px;
+    padding-left: 50px;
+    
+}
+
+.my-item-remove{
+    height: 180px;
+    width: 30px;
+    padding-top: 10px;
+
+}
+.Cart-item-price{
+    display: flex;
+    gap: 10px;
+}
+.item-name{
+    font-weight: bold;
+}
+.cart-items-total{
+    height: 500px;
+    width: 380px;
+    margin-top: 30px;
+    padding-left: 30px;
+    border: 0.1px solid black;
+}
+.mycoupon{
+    height:100px;
+    width: 350px;
+    
+}
+.mycoupon button{
+    color:rgb(253, 68, 115);
+    height: 30px;
+    width: 100px;
+    border-color:rgb(253, 68, 115) ;
+    border-width: 2px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 3px;
+}
+.mycoupon p{
+    gap: 20px;
+}
+
+.cart-item-price button{
+    height: 30px;
+    width: 350px;
+    background-color: #ff4141;
+    color: white;
+    border-color: #ff4141;
+    border-radius: 3px;
+}
+.cart-item-price a{
+    color: green;
+}
+.mycart-coupon{
+    display: flex;
+    justify-content: space-between;
+    width:360px;
+}
+.mycart-coupon input{
+    width: 240px;
+    border-radius: 5px;
+}
+.mycoupon i{
+    margin-right: 20px;
+    font-size: larger;
+}
+.cart-item-detail button{
+    height: 25px;
+    width: 25px;
+}

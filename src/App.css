@@ -1,11 +1,17 @@
-.App {
+/* .App {
   text-align: center;
-}
-
+} */
+/* body{
+  height: 5000px;
+} */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+.Nav-hidden{
+  height: 110px;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -25,7 +31,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: white;
 }
 
 @keyframes App-logo-spin {
