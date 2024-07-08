@@ -9,7 +9,7 @@ export default function RelatedProduct(props){
            <div className="related-product-items">
             {related_data.map((item,i)=>{
                 return <CategoryItem key={i} id={item.id} name={item.name} image={item.image} new_price={item.new_price} old_price={item.old_price} discount={item.discount}/>
-            })}
+})}
            </div>
         </div>
     )

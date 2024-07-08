@@ -1,17 +1,13 @@
 import React from "react";
 import './MenCategoryCSS/MenCategory.css'
-import shirts_data from "./MenCategory";
-import CategoryItem from "../../Components/Items/CategoryItems";
+import Sort from "../../Components/Items/Sort";
 export default function Formals(){
     return (
         <div className="men-shirts">
-            <img className="men-shirts-banner" src="https://www.cbazaar.com/blog/wp-content/uploads/2023/11/Blog_Banner_Nov02_04.jpg" alt="" />
+            <img className="men-shirts-banner" src="https://litb-cgis.rightinthebox.com/imagegy/202101/ca04cc1eab5349e7b0e7ec4be6bf84b8en8.jpg" alt="" />
             <div className="men-shirts-items">
-            {shirts_data.map((item,i)=>{
-                if(item.category==="men-formals")
-                    return <CategoryItem key={i} id={item.id} name={item.name} image={item.image} new_price={item.new_price} old_price={item.old_price} discount={item.discount}/> 
-                })}
+            <Sort property="men-formals" />
             </div>
-        </div>
+        </div>        
     )
 }

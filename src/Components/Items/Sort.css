@@ -1,0 +1,23 @@
+.item-sort{
+    height: 50px;
+    padding-left: 1100px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+form{
+    height: 30px;
+}
+select{
+    height: 30px;
+    width: 150px;
+}
+.sorted-items{
+    height:750px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 50px;
+    padding: 40px;
+    background-color: gainsboro;
+}

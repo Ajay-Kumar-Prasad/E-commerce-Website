@@ -2,9 +2,11 @@ import React, { createContext, useState } from "react";
 import all_products from './All_Product';
 import shirts_data from "../Pages/MenCategory/MenCategory";
 export const ShopContext = createContext(null);
+const cartProduct = [...all_products,...shirts_data]
+console.log(cartProduct)
 const getDefaultCart = () => {
     let cart={};
-    for (let idx=0; idx < all_products.length+1;idx++){
+    for (let idx=0; idx < cartProduct.length+1;idx++){
         cart[idx] = 0;
     }
    
@@ -28,7 +30,7 @@ const ShopContextProvider = (props) => {
         for (let itemId in cartItems) {
             if (cartItems.hasOwnProperty(itemId)) {
                 // Find the product info in all_products based on the itemId
-                let itemInfo = all_products.find(product => product.id === Number(itemId));
+                let itemInfo = cartProduct.find(product => product.id === Number(itemId));
     
                 if (itemInfo) {
                     // Calculate the subtotal for this item and add to totalPrice
@@ -48,7 +50,7 @@ const ShopContextProvider = (props) => {
         for (let itemId in cartItems) {
             if (cartItems.hasOwnProperty(itemId)) {
                 // Find the product info in all_products based on the itemId
-                let itemInfo = all_products.find(product => product.id === Number(itemId));
+                let itemInfo = cartProduct.find(product => product.id === Number(itemId));
     
                 if (itemInfo) {
                     // Calculate the subtotal for this item and add to totalPrice
@@ -72,7 +74,9 @@ const ShopContextProvider = (props) => {
             }
             return total_item;
     }
-    const contextValue = {getTotalCartOldPrice,getTotalCartItem,getTotalCartPrice,all_products,shirts_data,cartItems,addToCart,RemoveFromCart};
+
+    
+    const contextValue = {getTotalCartOldPrice,getTotalCartItem,getTotalCartPrice,all_products,shirts_data,cartProduct,cartItems,addToCart,RemoveFromCart};
     
     return (
         <ShopContext.Provider value = {contextValue}>

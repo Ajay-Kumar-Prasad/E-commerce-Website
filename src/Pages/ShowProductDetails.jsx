@@ -1,9 +1,18 @@
 import React, { useContext} from "react";
 import '../Pages/CSS/ShowProductDetails.css';
+import { useState } from "react";
 import { ShopContext } from "../ContextAPI/ShopContext";
 export default function ShowProductDetails(props){
     const {product} = props;
     const {addToCart}= useContext(ShopContext);
+    let [like,setLike]=useState(false)
+    let toggleLike = () => {
+        setLike(!like);
+
+    }
+
+    let likeStyle = {color:"red"}
+   
     return (
         <div className="show-myproduct">
             <div className="myproduct-image">
@@ -23,8 +32,11 @@ export default function ShowProductDetails(props){
             </div>
             <div className="myproduct-details">
                 <div className="like-share">
-                <i className="fa-solid fa-arrow-up-from-bracket"></i>
-                <i className="fa-regular fa-heart"></i>
+                <a><i className="fa-solid fa-arrow-up-from-bracket"></i></a>
+            <a onClick={toggleLike} >
+                {like? (<i class="fa-solid fa-heart" style={likeStyle}></i>)
+                :( <i className="fa-regular fa-heart"></i>)}
+            </a>
                 </div>
                 <div className="myproduct-name">
                     <h2>{product.brand_name}</h2>

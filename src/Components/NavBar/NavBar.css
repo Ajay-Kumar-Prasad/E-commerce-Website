@@ -38,9 +38,8 @@
     background-color: white;
     color: black;
     height: 30px;
-    width: 400px;
+    width: 410px;
     margin-top: 25px;
-    margin-left: 25px;
     border-radius: 10px;
 
 }
@@ -49,7 +48,7 @@
     width: 35px;
     margin-top: 25px;
     border-radius: 10px;
-    background-color: white;
+    background-color:rgb(32, 218, 203);
 
     
 }
@@ -99,3 +98,22 @@
 
 }
 
+.searchOptions{
+    background-color: white;
+    height: 40px;
+    width: 400px;
+    padding-left: 10px;
+    display:flex;
+    align-items: center;
+    color:black
+
+
+}
+.searchMenu{
+    padding-left: 20px;
+    border-radius: 30px;
+}
+.searchWidth{
+    height: 20px;
+    background: transparent;
+}

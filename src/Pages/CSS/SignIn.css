@@ -1,7 +1,7 @@
 .login{
     height: 500px;
     padding-top: 20px;
-    background-image: url("https://websoptimization.com/blog/media/posts/44/responsive/Marketplace-Development-cost-lg.jpg");
+    background-image: url("https://img.freepik.com/premium-photo/sakura-blooming-spring-flowers-pink_94046-1076.jpg");
     background-size: cover;
     
 }
@@ -23,16 +23,15 @@
 .sign-in-inputs{
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding-bottom: 20px;
     gap: 20px;
 }
 .sign-in-inputs input{
-    height: 30px;
+    height: 35px;
     border-radius: 10px;
 }
 .signin-container button{
-    margin-left: 30px;
-    width: 390px;
+    width: 450px;
     height: 40px;
     background-color: #ff4141;
     border-radius: 10px;
@@ -53,5 +52,12 @@
     font-weight: bold;
 }
 .login-container p{
-    color:white;
+    color:black;
+}
+.user-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 40px;
 }

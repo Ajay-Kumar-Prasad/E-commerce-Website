@@ -2,11 +2,11 @@ import React, { useContext } from "react";
 import './CSS/CartItems.css';
 import { ShopContext } from "../ContextAPI/ShopContext";
 export default function CartItems(){
-    const {addToCart,getTotalCartOldPrice,getTotalCartPrice, all_products,cartItems,RemoveFromCart} = useContext(ShopContext);
+    const {addToCart,getTotalCartOldPrice,getTotalCartPrice,cartProduct,cartItems,RemoveFromCart} = useContext(ShopContext);
     return(
     <div className="my-cart">
         <div className="my-cart-box">
-        {all_products.map((e)=>{
+        {cartProduct.map((e)=>{
         if(cartItems[e.id]>0)
             { 
             return <div key={e.id} className="my-cart-items">

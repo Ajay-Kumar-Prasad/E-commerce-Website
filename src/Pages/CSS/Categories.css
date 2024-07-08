@@ -15,16 +15,7 @@
 }
 .SortByProducts{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.shopcategory-sort{
-    height: 25px;
-    width: 100px;
-    border: 0.3px solid black;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
 }
 .more-items{

@@ -61,10 +61,7 @@ export default function WomenCategories(props){
 
             </div>
             <div className="SortByProducts">
-                <h4>Showing all 8 results</h4>
-            <div className="shopcategory-sort">
-                Sort by <i class="fa-solid fa-caret-down"></i>
-            </div>
+                <h3>Showing all 8 results</h3>
             </div>
             <div className="category-products">
                 {all_products.map((item,i)=>{

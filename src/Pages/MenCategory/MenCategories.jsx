@@ -4,6 +4,7 @@ import CategoryItem from "../../Components/Items/CategoryItems";
 import all_products from "../../ContextAPI/All_Product";
 import { Link } from "react-router-dom";
 export default function MenCategories(props){
+
     const shirtURL = "https://i.pinimg.com/originals/72/c6/be/72c6be72e26904f53f1a042057f01c61.jpg"
     const tshirtURL = "https://ae01.alicdn.com/kf/HTB1nR3uGWmWBuNjy1Xaq6xCbXXaE/casual-men-s-t-shirt-new-short-sleeved-Summer-Retro-Style-Synthwave-Graphic-Logo-Design-printing.jpg"
     const shoesURL = "https://ae01.alicdn.com/kf/H25a36e5dfdb243bf93a08b34bd3f41376/Men-Business-Casual-Shoes-PU-Leather-Running-Shoes-Fashion-Lace-Up-Casual-Sneakers-Male-Outdoor-Walking.jpg"
@@ -14,7 +15,7 @@ export default function MenCategories(props){
     const earbudsURL = "https://th.bing.com/th/id/OIP.L1nPeDeIff3iIdcthFnKVwAAAA?rs=1&pid=ImgDetMain"
     const formalURL = "https://th.bing.com/th/id/OIP.6qWCs4ZxoFj3rCInW9uuoAAAAA?rs=1&pid=ImgDetMain"
     const trousersURL = "https://ae01.alicdn.com/kf/HTB1c5R1QpXXXXanapXXq6xXFXXXo/Plus-Size-28-36-Men-s-Casual-Pants-Slim-Fit-Gray-Straight-Pants-Men-Fashion-Red.jpg"
-
+    
     return(
         <div className="shop-category">
             <img src={props.banner} />
@@ -60,13 +61,11 @@ export default function MenCategories(props){
                     <Link to="/men/trousers"><img src={trousersURL} alt="" /></Link>
                     <p>Trousers</p>
                 </div>
-
+        
             </div>
+            <hr />
             <div className="SortByProducts">
-                <h4>Showing all 8 results</h4>
-            <div className="shopcategory-sort">
-                Sort by <i class="fa-solid fa-caret-down"></i>
-            </div>
+                <h3>Showing all 8 results</h3>
             </div>
             <div className="category-products">
                 {all_products.map((item,i)=>{

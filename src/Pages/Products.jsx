@@ -4,7 +4,6 @@ import { useParams } from "react-router-dom";
 import ShowProduct from "./ShowProduct";
 import ShowProductDetails from "./ShowProductDetails";
 import RelatedProduct from "../Components/Items/Related Products" // Adjust import path as needed
-
 export default function Product() {
   const { all_products, shirts_data } = useContext(ShopContext);
   const { productId } = useParams();
@@ -19,6 +18,7 @@ export default function Product() {
   const findProductById = (id) => {
     // Check all_products first
     let foundProduct = all_products.find((prod) => prod.id === id);
+  
     
     // If not found in all_products, check shirts_data
     if (!foundProduct) {
@@ -36,7 +36,7 @@ export default function Product() {
     <div>
       <ShowProduct product={product} />
       <ShowProductDetails product={product} />
-      <RelatedProduct />
+      <RelatedProduct/>
     </div>
   );
 }

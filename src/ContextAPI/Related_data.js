@@ -55,5 +55,6 @@ let related_data = [
         discount:"36% off",
         rating:4.1
     }
+   
 ]
 export default related_data;
