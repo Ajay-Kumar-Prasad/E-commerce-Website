@@ -1,0 +1,54 @@
+.product-content{
+    width: 1350px;
+    height: 600px;
+    background-image: url("https://i01.appmifile.com/webfile/globalimg/7/FC93FDF7-81AE-091D-47A6-4400C240A661.jpg");
+    background-size: contain;
+    color: white;
+}
+.product-content p{
+    font-size: 80px;
+    margin: 0px;
+    padding-top: 150px;
+    padding-left: 100px;
+}
+.product-features{
+    height: 900px;
+    display: grid;
+    grid-template-rows: 450px 450px;
+    grid-template-columns: 620px 620px;
+    padding-left: 40px;
+    padding-top: 40px;
+    gap: 30px;
+    color: white;
+}
+.product-features img{
+    height: 140px;
+    width: 200px;
+    padding-top: 20px;
+}
+
+.product-detail1{
+    width: 400px;
+    height: 150px;
+    line-height: 15px;
+    padding-left: 20px;
+    
+}
+.product-detail2{
+    height: 250px;
+    width: 600px;
+    display: flex;
+    
+    
+}
+.product-detail2 li{
+    margin: 10px;
+    height: 40px;
+    padding-bottom: 15px;
+    width: 240px;
+}
+.product-detail2 ul{
+    width: 240px;
+    margin-top: 0px;
+    
+}

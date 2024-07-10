@@ -65,7 +65,7 @@ export default function MenCategories(props){
             </div>
             <hr />
             <div className="SortByProducts">
-                <h3>Showing all 8 results</h3>
+                <h3>Showing all 10 results</h3>
             </div>
             <div className="category-products">
                 {all_products.map((item,i)=>{

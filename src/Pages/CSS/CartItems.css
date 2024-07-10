@@ -13,8 +13,7 @@
     width: 800px;
     margin: 30px;
     display: flex;
-    border: 0.5px solid black;
-    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .cart-item-detail{
     height: 200px;
@@ -41,7 +40,7 @@
     width: 380px;
     margin-top: 30px;
     padding-left: 30px;
-    border: 0.1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .mycoupon{
     height:100px;

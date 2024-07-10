@@ -61,13 +61,11 @@ export default function NavBar(){
         <div className="line"></div>
         <div className="menu">
             <ul>
-                <li>Today's Deals</li>
-                <li>BestSellers</li>
-                <li>Mobiles</li>
-                <li>Fashion</li>
-                <li>Electronics</li>
-                <li>Home & Kitchen</li>
-                <li>Grocery</li>
+                <Link to="/Best-Deals"><li>Today's Deals</li></Link>
+                <Link to="/bestsellers"><li>BestSellers</li></Link>
+                <Link to="/smartphones"><li>Mobiles</li></Link>
+                <Link to="/fashion"><li>Fashion</li></Link>
+                <Link to="/electronics"><li>Electronics</li></Link> 
             </ul>
         </div> 
         </div>

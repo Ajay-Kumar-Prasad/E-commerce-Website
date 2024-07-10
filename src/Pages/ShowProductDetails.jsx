@@ -8,7 +8,6 @@ export default function ShowProductDetails(props){
     let [like,setLike]=useState(false)
     let toggleLike = () => {
         setLike(!like);
-
     }
 
     let likeStyle = {color:"red"}
@@ -52,7 +51,7 @@ export default function ShowProductDetails(props){
                     <div className="myproduct-oldprice">₹{product.old_price}</div>
                     <div className="myproduct-discount">₹{product.discount}</div>
                 </div>
-                <div className="myproduct-description">
+                <div className="myproduct-description" style={{height:"160px"}}>
                     <h4>Description</h4>
                     <p>{product.description}</p>
                 </div>

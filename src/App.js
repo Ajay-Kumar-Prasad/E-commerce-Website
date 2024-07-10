@@ -19,6 +19,8 @@ import Trousers from './Pages/MenCategory/Trousers.jsx';
 import Formals from './Pages/MenCategory/Formals.jsx';
 import Earbuds from './Pages/MenCategory/Earbuds.jsx';
 import Blazers from './Pages/MenCategory/Blazers.jsx';
+import MiNotebook from './Components/Banners/MiNotebook.jsx';
+import Headphones from './Components/Banners/BoatHeadphones.jsx';
 function App() {
   let men_banner = "https://shopify-ecommerce-university.s3.amazonaws.com/production/images/success_story/banner_image/699/mens_fashion_shopify_success_stories_Banner.jpg"
   let women_banner = "https://globus.greenhonchos.in/media/mageplaza/bannerslider/banner/image/1/_/1.jpg"
@@ -39,6 +41,8 @@ function App() {
           <Route path='/cart' element={<Cart/>}/>
           <Route path='/signin' element={<SignIn/>}/>
           {/* MenCategories */}
+          <Route path='/Mi-Notebook' element={<MiNotebook/>}></Route>
+          <Route path='/boat-headphones' element={<Headphones/>}></Route>
           <Route path='/men/shirts' element={<Shirts/>}/>
           <Route path='/men/tshirts' element={<Tshirts/>}/>
           <Route path='/men/shoes' element={<Shoes/>}/>

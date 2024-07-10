@@ -791,13 +791,112 @@ let shirts_data = [
         discount:"52%off",
         rating:4.3
     },
- 
-   
-
     
-
-    
-    
-
+    {
+        id:76,
+        name:"boAt Rockerz 460",
+        full_name:"boAt Rockerz 460 with upto 30 Hours Playb. Bluetooth Headset(Crimson White)",
+        brand_name:"boAt",
+        category:"boat-headphones",
+        description:"With Mic:Yes,Bluetooth version: 5.2,Wireless range: 10 m,Playback Time: Upto 30 Hours ENx Technology: For Clear Voice Calls Beast Mode: Low latency for Gaming 40mm Drivers: boAt Signature Sound,Crimson White,1 Headphone, Charging Cable, User Manual, Warranty Card",
+        image:"https://rukminim2.flixcart.com/image/832/832/l3dcl8w0/headphone/w/7/f/-original-imagehzz29n3whg8.jpeg?q=70&crop=false",
+        image_1:"https://rukminim2.flixcart.com/image/832/832/l3dcl8w0/headphone/r/n/y/-original-imagehzzhhy43mqv.jpeg?q=70&crop=false",
+        image_2:"https://rukminim2.flixcart.com/image/832/832/l3dcl8w0/headphone/c/t/9/-original-imagehzzzsfyd8gh.jpeg?q=70&crop=false",
+        new_price:1799,
+        old_price:2490,
+        discount:"27%off",
+        rating:4.2
+    },
+    {
+        id:77,
+        name:"boAt Rockerz 450",
+        full_name:"boAt Rockerz 450 with Upto 15 Hours Playback Bluet. Headset(Luscious Black)",
+        brand_name:"boAt",
+        category:"boat-headphones",
+        description:"With Mic:Yes,Connector type: 3.5 mm,Battery life: 15 hr | Charging time: 3 Hours,40mm Drivers: HD Sound,Adjustable Earcups,Up to 15 H Playback,Bluetooth version 5.0,Dual Modes: Bluetooth & AUXAre you looking for a headset that features eye-catching aesthetics and dual modes? If yes, bring home the boAt Rockerz 450 that has an AUX-mode as well as the Bluetooth connectivity feature. The 40-mm drivers and adjustable earcups ensure you enjoy a comfortable listening experience that is immersive.",
+        image:"https://rukminim2.flixcart.com/image/832/832/ksw4ccw0/headphone/w/g/r/rockerz-450-boat-original-imag6cqqh49wjfy5.jpeg?q=70&crop=false",
+        image_1:"https://rukminim2.flixcart.com/image/832/832/ksw4ccw0/headphone/r/h/w/rockerz-450-boat-original-imag6cqqwzjeufqg.jpeg?q=70&crop=falsee",
+        image_2:"https://rukminim2.flixcart.com/image/832/832/ksw4ccw0/headphone/a/d/r/rockerz-450-boat-original-imag6cqqbtyhy2ny.jpeg?q=70&crop=false",
+        new_price:1499,
+        old_price:3990,
+        discount:"62%off",
+        rating:4.3
+    },
+    {
+        id:78,
+        name:"boAt Rockerz 333 Pro",
+        full_name:"boAt Rockerz 333 Pro with 60 Hours Battery Bluetooth Headset(Teal Green)",
+        brand_name:"boAt",
+        category:"boat-headphones",
+        description:"Tune into a peerless way of delving in pure auditory bliss with Rockerz 333 Pro wireless neckband. It offers a humongous playback time of up to 60HRS! Being equipped with ENx tech, this neckband delivers a matchless calling experience by letting you be clearly heard over voice calls. Courtesy our ASAP Charge tech, the neckband can garner up to 20HRS of playtime in just 10Min of charge! It dons magnetic earbuds that support easy storage and carry when not in use.",
+        image:"https://rukminim2.flixcart.com/image/832/832/xif0q/headphone/o/9/j/-original-imagg242aegju2ja.jpeg?q=70&crop=false",
+        image_1:"https://rukminim2.flixcart.com/image/832/832/xif0q/headphone/e/k/w/-original-imagg242zspkzy4q.jpeg?q=70&crop=false",
+        image_2:"https://rukminim2.flixcart.com/image/832/832/xif0q/headphone/v/c/i/-original-imagg242wadngh9t.jpeg?q=70&crop=false",
+        new_price:1099,
+        old_price:2990,
+        discount:"63%off",
+        rating:4.2
+    }
+    ,
+    {
+        id:79,
+        name:"boAt Rockerz 600",
+        full_name:"boAt Rockerz 600 HD Sound Bluetooth Headset(Brown, On the Ear)",
+        brand_name:"boAt",
+        category:"boat-headphones",
+        description:"the boAt Airdopes 131 that comes with a carrying case. This carrying case also acts as a 650 mAh portable charger that extends the playback time of these earbuds by up to 15 hours, i.e. 4 times its normal charging capacity. The normal battery capacity of each of these earbuds is 40 mAh and this delivers up to 3 hours of playback time. These earbuds feature Bluetooth v5.0 technology that delivers a stable connection that lets your rock on without connectivity issues",
+        image:"https://rukminim2.flixcart.com/image/832/832/kfpq5jk0-0/headphone/2/k/w/rockerz-600-hd-sound-rockerz-610-boat-original-imafw3sc5r93kd9z.jpeg?q=70&crop=false",
+        image_1:"https://rukminim2.flixcart.com/image/832/832/kfpq5jk0-0/headphone/t/j/e/rockerz-600-hd-sound-rockerz-610-boat-original-imafw3scezrywhhk.jpeg?q=70&crop=false",
+        image_2:"https://rukminim2.flixcart.com/image/832/832/kfpq5jk0-0/headphone/c/l/a/rockerz-600-hd-sound-rockerz-610-boat-original-imafw3scywsu5ees.jpeg?q=70&crop=false",
+        discount:"69%off",
+        new_price:899,
+        old_price:2990,
+        rating:4
+    } ,
+    {
+        id:80,
+        name:"boAt Airdopes 161/163",
+        full_name:"boAt Airdopes 161/163 (Pebble Black, Active Black, True Wireless))",
+        brand_name:"boAt",
+        category:"boat-headphones",
+        description:"It's time to Do Your Groove, with Airdopes161TWS earbuds. The 13mm drivers in the earbuds are there to deliver an immersive listening time. It comes equipped with Bluetooth v5.1 wireless technology so that you can enjoy all of your sessions lag-free. The IWP tech enabled TWS earbuds power on as soon as the case lid gets opened. Moreover, the ASAP Charge tech helps the earbuds to gather up to 90 Mins of playtime in only 5 minutes of charging. Airdopes 161 provides a total playback time of up to 40HRS. ",
+        image:"https://rukminim2.flixcart.com/image/832/832/xif0q/headphone/o/d/r/-original-imagpgwsm6zgtsrj.jpeg?q=70&crop=false",
+        image_1:"https://rukminim2.flixcart.com/image/832/832/xif0q/headphone/9/x/u/-original-imagqtpfkwfzdydx.jpeg?q=70&crop=false",
+        image_2:"https://rukminim2.flixcart.com/image/832/832/xif0q/headphone/o/m/6/-original-imagqtpfj5yvdxwg.jpeg?q=70&crop=false",
+        new_price:999,
+        old_price:2490,
+        discount:"59%off",
+        rating:4
+    },
+    {
+        id:81,
+        name:"boAt Airdopes Supreme",
+        full_name:"boAt Airdopes Supreme Bluetooth Headset(Classic Black, True Wireless)",
+        brand_name:"boAt",
+        category:"boat-headphones",
+        description:"boAt Airdopes Supreme w/ 4 Mics AI ENx Tech, 50 HRS Playback,Multi Point Connectivity Bluetooth Headset  (Classic Black, True Wireless)//In- Ear Detection: Insert the buds to play/pause music, wear the earbuds to accept incoming calls & once removed the call gets transferred back to the phone.Spatial Audio Experience: Airdopes Supreme boasts real-time Spatial Audio with 24-Bit Audio Processing technology to bring you an immersive cinematic listening experience.50 Hours Playback with ASAP Charge: 10 Mins Charge= 150 Mins Playback.Beast Mode: Low Latency for Gaming",
+        image:"https://rukminim2.flixcart.com/image/832/832/xif0q/headphone/v/f/m/-original-imagz5z4cknamu9d.jpeg?q=70&crop=false",
+        image_1:"https://rukminim2.flixcart.com/image/832/832/xif0q/headphone/g/1/a/-original-imagz5z4uvyy3xzr.jpeg?q=70&crop=false",
+        image_2:"https://rukminim2.flixcart.com/image/832/832/xif0q/headphone/6/v/a/-original-imagz5z4v68u8sjj.jpeg?q=70&crop=false",
+        new_price:1499,
+        old_price:5990,
+        discount:"74%off",
+        rating:4.1
+    },
+    {
+        id:82,
+        name:"boAt Airdopes 131",
+        full_name:"boAt Airdopes 131 Bluetooth Headset(Active Black,True Wireless)",
+        brand_name:"boAt",
+        category:"boat-headphones",
+        description:"the boAt Airdopes 131 that comes with a carrying case. This carrying case also acts as a 650 mAh portable charger that extends the playback time of these earbuds by up to 15 hours, i.e. 4 times its normal charging capacity. The normal battery capacity of each of these earbuds is 40 mAh and this delivers up to 3 hours of playback time. These earbuds feature Bluetooth v5.0 technology that delivers a stable connection that lets your rock on without connectivity issues",
+        image:"https://rukminim2.flixcart.com/image/832/832/xif0q/headphone/1/8/l/-original-imagqhswqgpwb2yu.jpeg?q=70&crop=false",
+        image_1:"https://rukminim2.flixcart.com/image/832/832/l23mhzk0/headphone/a/z/x/-original-imagdgumyuesnvhg.jpeg?q=70&crop=false",
+        image_2:"https://rukminim2.flixcart.com/image/832/832/xif0q/headphone/q/o/h/-original-imagjwgzgucg95g2.jpeg?q=70&crop=false",
+        discount:"69%off",
+        new_price:899,
+        old_price:2990,
+        rating:4
+    } 
 ]
 export default shirts_data;
