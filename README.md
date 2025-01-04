@@ -1,4 +1,4 @@
-I would like to tell to that the website I have built is not complete,it's just frontend. I agree that there is a lot to do, and yes I am in my learning phase. I'll keep improving my project.
+I would like to tell you that the website I have built is not complete,it's just frontend. I agree that there is a lot to do, and yes I am in my learning phase. I'll keep improving my project.
 
 To view website:
 https://ajay-kumar-e-commerce-website.onrender.com
